@@ -3,83 +3,37 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#ffffff">
-    <title>Hiroaki Hamade — AI Researcher</title>
-    <meta name="description" content="Hiroaki Hamade is an AI researcher studying efficient language model adaptation, gradient-free optimization, and weight-space geometry.">
+    <meta name="theme-color" content="#f3f5f1">
+    <title>Hiroaki Hamade</title>
+    <meta name="description" content="Hiroaki Hamade — interested in AI safety and AI for science.">
     <link rel="canonical" href="https://hiroaki-hamade.github.io/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Hiroaki Hamade — AI Researcher">
-    <meta property="og:description" content="Research on efficient language model adaptation and the geometry of neural networks.">
+    <meta property="og:title" content="Hiroaki Hamade">
+    <meta property="og:description" content="Interested in AI safety and AI for science.">
     <meta property="og:url" content="https://hiroaki-hamade.github.io/">
-    <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css?v=2">
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="styles.css?v=7">
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to content</a>
-    <div class="page">
-      <header class="site-header">
-        <a class="wordmark" href="#home" aria-label="Hiroaki Hamade, home"><span class="identity-mark" aria-hidden="true"></span>H / H</a>
-        <nav aria-label="Main navigation">
-          <a href="#about">About</a>
-          <a href="#research">Research</a>
-          <a href="https://github.com/hiroaki-hamade">GitHub <span aria-hidden="true">↗</span></a>
-        </nav>
+    <main>
+      <header>
+        <h1>Hiroaki Hamade</h1>
+        <a class="github" href="https://github.com/hiroaki-hamade">GitHub</a>
       </header>
 
-      <main id="main">
-        <section class="intro" id="home" aria-labelledby="name">
-          <p class="eyebrow">AI Researcher</p>
-          <h1 id="name"><span>Hiroaki</span> <span>Hamade</span></h1>
-          <p class="intro-line"><span>Geometry.</span> <span>Learning.</span> <span>Efficiency.</span></p>
-          <a class="text-link" href="https://github.com/hiroaki-hamade">GitHub <span aria-hidden="true">↗</span></a>
-        </section>
+      <div class="intro">
+        <p>I'm a final-year undergraduate student at The University of Osaka, interested in AI safety and AI for science.</p>
+      </div>
 
-        <section id="about" class="about" aria-labelledby="about-heading">
-          <h2 class="section-label" id="about-heading"><span aria-hidden="true">01 /</span> About</h2>
-          <p class="research-statement">How can the structure of a model make learning more efficient?</p>
-          <div class="about-copy">
-            <p>I'm an AI researcher interested in how the structure of neural networks can inform more efficient learning.</p>
-            <p>My current work explores architecture-aware weight perturbations for language model adaptation and ensembling, in collaboration with <a href="https://kiratoyoshihara.github.io/">Kirato Yoshihara</a>.</p>
-          </div>
-        </section>
-
-        <section class="interests" aria-labelledby="interests-heading">
-          <h2 class="eyebrow" id="interests-heading">Research interests</h2>
-          <ul>
-            <li>Efficient language model adaptation</li>
-            <li>Gradient-free optimization</li>
-            <li>Weight-space geometry</li>
-          </ul>
-        </section>
-
-        <section class="research" id="research" aria-labelledby="research-heading">
-          <div class="section-heading">
-            <h2 class="section-label" id="research-heading"><span aria-hidden="true">02 /</span> Research</h2>
-            <span class="section-note">2026</span>
-          </div>
-          <article class="paper" aria-labelledby="paper-title">
-            <div class="paper-content">
-              <p class="paper-kind">Manuscript · Under review</p>
-              <h3 id="paper-title">Modular Norm RandOpt: Population-Efficient Ensembling through Architecture-Aware Perturbations</h3>
-              <p class="authors"><a href="https://kiratoyoshihara.github.io/">Kirato Yoshihara</a>, <strong>Hiroaki Hamade</strong></p>
-              <p class="venue">Under review at <a href="https://neurreps.org/">NeurReps, a NeurIPS 2026 Workshop</a><br><span>Extended Abstract Track</span></p>
-              <p class="paper-summary">We replace isotropic weight perturbations with architecture-aware sampling to improve the accuracy–population tradeoff of language model ensembles.</p>
-              <details>
-                <summary>About this work <span class="details-icon" aria-hidden="true">+</span></summary>
-                <div class="abstract">
-                  <p>Modular Norm RandOpt normalizes each parameter perturbation with a role-specific norm and rescales it using a fixed profile derived from model architecture and source-task sensitivity calibration. It preserves RandOpt’s candidate ranking and ensembling procedure.</p>
-                  <p>On Qwen2.5-1.5B-Instruct, the method outperforms RandOpt using 3× fewer candidate models on Countdown and at least 12× fewer on GSM8K. Across seven tasks and three Qwen model sizes, it improves on RandOpt in 14 of 21 settings and ties in one additional setting.</p>
-                </div>
-              </details>
-            </div>
-          </article>
-        </section>
-      </main>
-
-      <footer>
-        <span>© 2026 Hiroaki Hamade</span>
-        <a href="https://github.com/hiroaki-hamade">GitHub <span aria-hidden="true">↗</span></a>
-      </footer>
-    </div>
+      <section aria-labelledby="research-heading">
+        <h2 id="research-heading">Research</h2>
+        <article aria-labelledby="paper-title">
+          <h3 id="paper-title"><a href="https://openreview.net/forum?id=vF4gJfeKOC">Modular Norm RandOpt: Population-Efficient Ensembling through Architecture-Aware Perturbations</a></h3>
+          <p class="authors"><a href="https://kiratoyoshihara.github.io/">Kirato Yoshihara</a>, <strong>Hiroaki Hamade</strong></p>
+          <p class="venue">Under review at <a href="https://neurreps.org/">NeurReps @ NeurIPS 2026</a> (Extended Abstract Track)</p>
+          <p class="summary">Architecture-aware weight perturbations for more efficient language model ensembling.</p>
+        </article>
+      </section>
+    </main>
   </body>
 </html>
