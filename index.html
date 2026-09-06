@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#faf9f6">
+    <meta name="theme-color" content="#ffffff">
     <title>Hiroaki Hamade — AI Researcher</title>
     <meta name="description" content="Hiroaki Hamade is an AI researcher studying efficient language model adaptation, gradient-free optimization, and weight-space geometry.">
     <link rel="canonical" href="https://hiroaki-hamade.github.io/">
@@ -12,13 +12,13 @@
     <meta property="og:description" content="Research on efficient language model adaptation and the geometry of neural networks.">
     <meta property="og:url" content="https://hiroaki-hamade.github.io/">
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=2">
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
     <div class="page">
       <header class="site-header">
-        <a class="monogram" href="#home" aria-label="Hiroaki Hamade, home">hh<span>.</span></a>
+        <a class="wordmark" href="#home" aria-label="Hiroaki Hamade, home"><span class="identity-mark" aria-hidden="true"></span>H / H</a>
         <nav aria-label="Main navigation">
           <a href="#about">About</a>
           <a href="#research">Research</a>
@@ -29,13 +29,18 @@
       <main id="main">
         <section class="intro" id="home" aria-labelledby="name">
           <p class="eyebrow">AI Researcher</p>
-          <h1 id="name">Hiroaki Hamade<span class="name-dot">.</span></h1>
-          <p class="intro-line">Exploring the geometry of learning.</p>
-          <div id="about" class="about">
+          <h1 id="name"><span>Hiroaki</span> <span>Hamade</span></h1>
+          <p class="intro-line"><span>Geometry.</span> <span>Learning.</span> <span>Efficiency.</span></p>
+          <a class="text-link" href="https://github.com/hiroaki-hamade">GitHub <span aria-hidden="true">↗</span></a>
+        </section>
+
+        <section id="about" class="about" aria-labelledby="about-heading">
+          <h2 class="section-label" id="about-heading"><span aria-hidden="true">01 /</span> About</h2>
+          <p class="research-statement">How can the structure of a model make learning more efficient?</p>
+          <div class="about-copy">
             <p>I'm an AI researcher interested in how the structure of neural networks can inform more efficient learning.</p>
             <p>My current work explores architecture-aware weight perturbations for language model adaptation and ensembling, in collaboration with <a href="https://kiratoyoshihara.github.io/">Kirato Yoshihara</a>.</p>
           </div>
-          <a class="text-link" href="https://github.com/hiroaki-hamade">Find me on GitHub <span aria-hidden="true">↗</span></a>
         </section>
 
         <section class="interests" aria-labelledby="interests-heading">
@@ -49,11 +54,10 @@
 
         <section class="research" id="research" aria-labelledby="research-heading">
           <div class="section-heading">
-            <h2 id="research-heading">Research</h2>
-            <span class="section-note">Selected work</span>
+            <h2 class="section-label" id="research-heading"><span aria-hidden="true">02 /</span> Research</h2>
+            <span class="section-note">2026</span>
           </div>
           <article class="paper" aria-labelledby="paper-title">
-            <div class="paper-year">2026</div>
             <div class="paper-content">
               <p class="paper-kind">Manuscript · Under review</p>
               <h3 id="paper-title">Modular Norm RandOpt: Population-Efficient Ensembling through Architecture-Aware Perturbations</h3>
