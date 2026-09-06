@@ -1,0 +1,4 @@
+.DS_Store
+スクリーンショット*.png
+node_modules/
+.playwright/
