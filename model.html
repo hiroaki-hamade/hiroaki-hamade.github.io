@@ -4,16 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#fafafa">
-    <title>Hiroaki Hamade</title>
-    <meta name="description" content="Hiroaki Hamade — interested in AI safety and AI for science.">
-    <link rel="canonical" href="https://hiroaki-hamade.github.io/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Hiroaki Hamade">
-    <meta property="og:description" content="Interested in AI safety and AI for science.">
-    <meta property="og:url" content="https://hiroaki-hamade.github.io/">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Hiroaki Hamade — model preview</title>
+    <meta name="description" content="Local comparison of the neural-model illustration.">
     <link rel="icon" href="data:,">
     <link rel="stylesheet" href="styles.css?v=12">
-    <script type="module" src="assets/artwork.js?v=1"></script>
+    <script type="module" src="assets/neural-core.js?v=1"></script>
   </head>
   <body>
     <main>
@@ -22,25 +18,12 @@
           <h1>Hiroaki Hamade</h1>
           <p class="affiliation">Undergraduate student <span class="separator" aria-hidden="true">|</span> The University of Osaka</p>
         </div>
-        <div class="cosmic-art" data-time-artwork>
-          <noscript>
-            <img class="cosmic-poster" src="assets/black-hole-poster.png" width="400" height="356" alt="A black hole wrapped in a thin, luminous accretion disk.">
-          </noscript>
-          <template id="artwork-day">
-            <img class="cosmic-poster" src="assets/neural-core-poster.png" width="400" height="356" alt="Five translucent layers of neurons, linked by fine connections and a violet signal path.">
-            <button class="cosmic-window" type="button" aria-label="Explore a neural network" aria-describedby="neural-instructions" hidden>
-              <canvas aria-hidden="true"></canvas>
-            </button>
-            <span class="sr-only" id="neural-instructions">Hover over a neuron to reveal its connections. Drag to turn the network. Click, tap, or press Space to send a signal through a new path. Arrow keys rotate the view. Escape resets it. This is an artistic illustration, not a diagram of a specific AI model.</span>
-          </template>
-          <template id="artwork-night">
-            <img class="cosmic-poster" src="assets/black-hole-poster.png" width="400" height="356" alt="A black hole wrapped in a thin, luminous accretion disk.">
-            <button class="cosmic-window" type="button" aria-label="Explore a black hole" aria-describedby="cosmic-instructions" hidden>
-              <canvas class="cosmic-canvas" aria-hidden="true"></canvas>
-              <canvas class="cosmic-trails" aria-hidden="true"></canvas>
-            </button>
-            <span class="sr-only" id="cosmic-instructions">Drag to change the viewing angle. Click or press Space to send a star into orbit. Arrow keys rotate the view. Escape resets it. This is an artistic illustration, not a scientific simulation.</span>
-          </template>
+        <div class="cosmic-art neural-art">
+          <img class="cosmic-poster" src="assets/neural-core-poster.png" width="400" height="356" alt="Five translucent layers of neurons, linked by fine connections and a violet signal path.">
+          <button class="cosmic-window" type="button" aria-label="Explore a neural network" aria-describedby="neural-instructions" hidden>
+            <canvas aria-hidden="true"></canvas>
+          </button>
+          <span class="sr-only" id="neural-instructions">Hover over a neuron to reveal its connections. Drag to turn the network. Click, tap, or press Space to send a signal through a new path. Arrow keys rotate the view. Escape resets it. This is an artistic illustration, not a diagram of a specific AI model.</span>
         </div>
         <div class="profile-details">
           <ul class="profile-links" aria-label="Contact and links">
