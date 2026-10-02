@@ -47,7 +47,7 @@ The compact black hole beside the profile is original, cinema-inspired procedura
 
 When changing the artwork, refresh the PNG fallback with a screenshot of `.cosmic-art` at the default viewing angle, with reduced motion enabled and without hover or keyboard focus. The current fallback is captured at 2× pixel density against the page background.
 
-The research submission is currently under review. Update the status only after a decision, and add paper or code links when public URLs are available. The source screenshot is a private reference and is excluded from Git.
+Modular Norm RandOpt is under review at ICLR 2027 and accepted at NeurReps @ NeurIPS 2026 (Extended Abstract Track). Keep the ICLR submission and workshop acceptance distinct when updating the status. The source screenshot is a private reference and is excluded from Git.
 
 ## Neural-model artwork
 
